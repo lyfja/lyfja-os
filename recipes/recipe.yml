@@ -41,17 +41,17 @@ modules:
 
   - type: fonts
     fonts:
-      google-fonts:
-        - IBM Plex Sans
-        - IBM Plex Mono
-        - IBM Plex Serif
-        - Inter
-        nerd-fonts:
-        - FiraCode # don't add spaces or "Nerd Font" suffix.
+      nerd-fonts:
+        - FiraCode
         - Hack
         - SourceCodePro
         - Terminus
         - JetBrainsMono
         - NerdFontsSymbolsOnly
+      google-fonts:
+        - IBM Plex Sans
+        - IBM Plex Mono
+        - IBM Plex Serif
+        - Inter
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
